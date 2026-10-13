@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-editorial {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-headline {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.025em;
+}
+
+/* Custom scrollbar for modern news feed */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
+
+/* Motif Batik Nusantara Textures */
+.batik-pattern-overlay {
+  background-image: radial-gradient(circle at 50% 50%, rgba(2, 132, 199, 0.08) 1px, transparent 1px),
+                    radial-gradient(circle at 0% 0%, rgba(2, 132, 199, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Authentic Batik Kawung SVG background pattern */
+.bg-batik-kawung-light {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%230284c7' fill-opacity='0.04' fill-rule='evenodd'%3E%3Ccircle cx='20' cy='20' r='2.5'/%3E%3Cellipse cx='20' cy='10' rx='4.5' ry='8' fill='none' stroke='%230284c7' stroke-width='0.8' stroke-opacity='0.08'/%3E%3Cellipse cx='20' cy='30' rx='4.5' ry='8' fill='none' stroke='%230284c7' stroke-width='0.8' stroke-opacity='0.08'/%3E%3Cellipse cx='10' cy='20' rx='8' ry='4.5' fill='none' stroke='%230284c7' stroke-width='0.8' stroke-opacity='0.08'/%3E%3Cellipse cx='30' cy='20' rx='8' ry='4.5' fill='none' stroke='%230284c7' stroke-width='0.8' stroke-opacity='0.08'/%3E%3Ccircle cx='0' cy='0' r='2'/%3E%3Ccircle cx='40' cy='0' r='2'/%3E%3Ccircle cx='0' cy='40' r='2'/%3E%3Ccircle cx='40' cy='40' r='2'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-batik-kawung-dark {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2338bdf8' fill-opacity='0.12' fill-rule='evenodd'%3E%3Ccircle cx='20' cy='20' r='2.5'/%3E%3Cellipse cx='20' cy='10' rx='4.5' ry='8' fill='none' stroke='%2338bdf8' stroke-width='0.8' stroke-opacity='0.18'/%3E%3Cellipse cx='20' cy='30' rx='4.5' ry='8' fill='none' stroke='%2338bdf8' stroke-width='0.8' stroke-opacity='0.18'/%3E%3Cellipse cx='10' cy='20' rx='8' ry='4.5' fill='none' stroke='%2338bdf8' stroke-width='0.8' stroke-opacity='0.18'/%3E%3Cellipse cx='30' cy='20' rx='8' ry='4.5' fill='none' stroke='%2338bdf8' stroke-width='0.8' stroke-opacity='0.18'/%3E%3Ccircle cx='0' cy='0' r='2'/%3E%3Ccircle cx='40' cy='0' r='2'/%3E%3Ccircle cx='0' cy='40' r='2'/%3E%3Ccircle cx='40' cy='40' r='2'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-batik-gold-dark {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f59e0b' fill-opacity='0.12' fill-rule='evenodd'%3E%3Ccircle cx='20' cy='20' r='2.5'/%3E%3Cellipse cx='20' cy='10' rx='4.5' ry='8' fill='none' stroke='%23f59e0b' stroke-width='0.8' stroke-opacity='0.22'/%3E%3Cellipse cx='20' cy='30' rx='4.5' ry='8' fill='none' stroke='%23f59e0b' stroke-width='0.8' stroke-opacity='0.22'/%3E%3Cellipse cx='10' cy='20' rx='8' ry='4.5' fill='none' stroke='%23f59e0b' stroke-width='0.8' stroke-opacity='0.22'/%3E%3Cellipse cx='30' cy='20' rx='8' ry='4.5' fill='none' stroke='%23f59e0b' stroke-width='0.8' stroke-opacity='0.22'/%3E%3Ccircle cx='0' cy='0' r='2'/%3E%3Ccircle cx='40' cy='0' r='2'/%3E%3Ccircle cx='0' cy='40' r='2'/%3E%3Ccircle cx='40' cy='40' r='2'/%3E%3C/g%3E%3C/svg%3E");
+}
+

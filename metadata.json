@@ -1,0 +1,8 @@
+{
+  "name": "Ruang Legowo - Portal Media Berita",
+  "description": "Portal media berita online terpadu dengan sistem manajemen konten (CMS) ramah SEO, penyimpanan database permanen Firestore, dan dashboard analitik pengunjung real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
